@@ -1,0 +1,23 @@
+{
+  "name": "cls",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm --prefix ./medcore-pro---advanced-healthcare-ecosystem run dev",
+    "build": "npm --prefix ./medcore-pro---advanced-healthcare-ecosystem install && npm --prefix ./medcore-pro---advanced-healthcare-ecosystem run build",
+    "start": "npm --prefix ./medcore-pro---advanced-healthcare-ecosystem run preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "vite": "^7.3.0",
+    "vercel": "^29.0.0"
+  }
+}
